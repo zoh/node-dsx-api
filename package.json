@@ -1,12 +1,11 @@
 {
   "name": "node-dsx-api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Node api for DSX.uk crypto exchange",
   "main": "index.js",
   "scripts": {
     "pretty": "prettier --write \"./src/**/*.ts\"",
     "build": "rm -rf ./lib && tsc && tsc -d",
-    "start": "",
     "test": "mocha -r ts-node/register src/**/*.spec.ts src/**/**/*.spec.ts -t 10000"
   },
   "keywords": [
@@ -34,5 +33,6 @@
     "prettier": "^1.13.3",
     "ts-node": "^6.0.5",
     "typescript": "^2.9.1"
-  }
+  },
+  "git": "https://github.com/zoh/node-dsx-api"
 }

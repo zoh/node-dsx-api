@@ -33,5 +33,7 @@ npm-debug.log
 
 # .npmignore should ignore tests and Git stuff
 test
+.idea
+src
 .gitignore
 .git

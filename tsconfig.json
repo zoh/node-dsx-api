@@ -7,7 +7,7 @@
       ]
     },
     "outDir": "lib",
-    "module": "es2015",
+    "module": "commonjs",
     "target": "esnext",
     "pretty": true,
     "sourceMap": false,

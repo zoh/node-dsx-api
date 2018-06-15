@@ -1,7 +1,7 @@
 ## Trade API for DSX.uk Exchange
 
 ### Install
-`npm install dsx-api`
+`npm install node-dsx-api`
  
  
 ### Example use
