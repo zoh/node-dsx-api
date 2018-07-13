@@ -59,7 +59,7 @@ export abstract class Exchange {
   }
 
   nonce() {
-    return Math.floor(Date.now() / 1000);
+    return Date.now();
   }
 
   request(cfg: {
