@@ -58,7 +58,7 @@ export abstract class Exchange {
   }
 
   nonce() {
-    return Date.now();
+    return Date.now() + parseInt(String(Math.random() * 100000));
   }
 
   request(cfg: {
