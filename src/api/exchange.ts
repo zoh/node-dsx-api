@@ -1,6 +1,7 @@
 const crypto = require("crypto");
 import * as _ from "lodash";
 import * as request from "request-promise-native";
+
 const qs = require("qs");
 
 const dsxUrl = "https://dsx.uk";
@@ -58,7 +59,7 @@ export abstract class Exchange {
   }
 
   nonce() {
-    return Date.now() + parseInt(String(Math.random() * 100000));
+    return Math.floor(Date.now() / 1000);
   }
 
   request(cfg: {
